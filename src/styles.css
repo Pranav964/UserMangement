@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%; /* Ensures the form doesn't exceed 90% of the viewport width */
+    width: 100%; /* Allows the form to use 100% of the available width */
+  }
+  
+  
+  .popup form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .popup form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .popup form button {
+    margin-right: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background: #f4f4f4;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+
+  
+  
